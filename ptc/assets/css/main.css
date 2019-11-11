@@ -2644,8 +2644,13 @@ input, select, textarea {
 
 	}
 
-.imgjustify {
-	left: -9999px !important;
-    right: -9999px !important;
-    margin: auto !important;
+
+@media screen and (min-width: 736px) {
+
+	.imgjustify {
+		left: -9999px !important;
+		right: -9999px !important;
+		margin: auto !important;
+	}
+
 }
